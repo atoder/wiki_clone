@@ -11,6 +11,9 @@ class ArticlesController < ApplicationController
     end
   end
 
+  def show
+  end
+
   def new
     @article = current_user.articles.build
   end
